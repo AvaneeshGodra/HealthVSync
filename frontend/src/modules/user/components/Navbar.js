@@ -1,5 +1,3 @@
-// import React from 'react'
-
 import * as React from 'react';
 import { styled, alpha } from '@mui/material/styles';
 import AppBar from '@mui/material/AppBar';
@@ -13,7 +11,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import MonitorHeartOutlinedIcon from '@mui/icons-material/MonitorHeartOutlined';
 import HealthAndSafetyOutlinedIcon from '@mui/icons-material/HealthAndSafetyOutlined';
 import { Avatar } from '@mui/material';
-import {default as NavLogo} from './navlogo.png'
+
 
 
 const appBarStyle = {
@@ -97,7 +95,7 @@ const Navbar = () =>{
 
             style={{color:'black'}}
           >
-          <img src={NavLogo} style={{height:'3.5rem'}} />
+          <h1>HealthVSync</h1>
           </Typography>
 
           
