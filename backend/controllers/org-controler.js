@@ -77,7 +77,7 @@ export const orgController={
     async aimodel(req,res){
     //    res.json(req.body)
         const MODEL_NAME = "models/text-bison-001";
-const API_KEY = 'AIzaSyAbhkn4KQxk8lBNtVEF3sNXV1e47SzO2Ic';
+const API_KEY = '';
 
 const client = new TextServiceClient({
   authClient: new GoogleAuth().fromAPIKey(API_KEY),
